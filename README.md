@@ -1,3 +1,5 @@
+GOJEKHEMAT
+
 Install termux di Playstore 
 Ketik : 
 pkg update && upgrade 
