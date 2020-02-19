@@ -1,8 +1,8 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo color("red","[]          KIKUK KIKUK          []\n");
-echo color("green","[]           NOM NOMAN KESET           []\n");
+echo color("red","[]          ASU JINGAN FUFUFU          []\n");
+echo color("green","[]           NOM NOMAN TAEKK           []\n");
 echo color("yellow","[] Coli:  ".date('[d-m-Y] [H:i:s]')."  []\n");
 echo color("red","[]        TULIS NOMER PAKAI 62         []\n");
 function change(){
