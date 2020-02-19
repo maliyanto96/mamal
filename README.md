@@ -6,7 +6,8 @@ Ketik :
 pkg update && upgrade
 pkg install git
 pkg install php
-git clone https://github.com/herutok/GOJEKHEMAT.git 
+git clone https://github.com/herutok/GOJEKHEMAT.git
+
 cd GOJEKHEMAT
 
 
@@ -18,5 +19,6 @@ php herutok.php
 Untuk proses selanjutnya cukup ketik: 
 
 cd GOJEKHEMAT
+
 php herutok.php
 
