@@ -1,8 +1,6 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo color("red","[]          ASU JINGAN FUFUFU          []\n");
-echo color("green","[]           NOM NOMAN TAEKK           []\n");
 echo color("yellow","[] Coli:  ".date('[d-m-Y] [H:i:s]')."  []\n");
 echo color("red","[]        TULIS NOMER PAKAI 62         []\n");
 function change(){
@@ -39,20 +37,6 @@ function change(){
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","+] Message: ".$message);
-        goto goride;
-        }else{
-        echo "\n".color("red","-] Message: ".$message);
-        echo "\n".color("yellow","!] Klem GOFOOD021120B");
-        echo "\n".color("yellow","!] Please wait");
-        for($a=1;$a<=3;$a++){
-        echo color("yellow",".");
-        sleep(1);
-        }
-        sleep(3);
-        $alt01 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOOD021120B"}');
-        $messagealt01 = fetch_value($alt01,'"message":"','"');
-        if(strpos($alt01, 'Promo kamu sudah bisa dipakai.')){
-        echo "\n".color("green","+] Message: ".$messagealt01);
         goto goride;
         }else{
         echo "\n".color("red","-] Message: ".$messagealt01);
